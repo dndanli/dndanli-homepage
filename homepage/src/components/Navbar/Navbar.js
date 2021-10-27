@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavItems } from "./NavItems";
 import { FaBars } from "react-icons/fa";
-import { FaUserCircle } from "react-icons/fa";
 import { FaWindowClose } from "react-icons/fa";
 
 const navItemsStyle = {
