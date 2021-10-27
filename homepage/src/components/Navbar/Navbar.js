@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavItems } from "./NavItems";
 import { FaBars } from "react-icons/fa";
 import { FaWindowClose } from "react-icons/fa";
+import CheckQuery from "./NavMediaQuery";
 
 const navItemsStyle = {
   display: "flex",
@@ -17,11 +18,19 @@ const containerStyle = {
   alignItems: "flex-end",
 };
 
-const menuIconStyle = {
+let menuIconStyle = {
   visibility: "hidden",
 };
 
 const Navbar = () => {
+  const matches = CheckQuery("(max-width: 753px)");
+
+  if (matches) {
+    menuIconStyle = { ...menuIconStyle, visibility: "visible" };
+  } else {
+    menuIconStyle = { ...menuIconStyle, visibility: "hidden" };
+  }
+
   const [clicked, setClicked] = useState(false);
 
   const toggleMenu = () => {
