@@ -1,34 +1,48 @@
+//hooks
 import { useState } from "react";
+
+//text
 import { NavItems } from "./NavItems";
+
+//icons
 import { FaBars } from "react-icons/fa";
 import { FaWindowClose } from "react-icons/fa";
+
+//media functionality - might change to react-media
 import CheckQuery from "./NavMediaQuery";
 
-const navItemsStyle = {
+//styles
+import { containerStyle } from "./NavbarStyles";
+
+let navItemsStyle = {
   display: "flex",
   justifyContent: "space-evenly",
   width: "30%",
   margin: 0,
-  padding: 0,
-};
-
-const containerStyle = {
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "flex-end",
+  padding: "1em",
+  visibility: "",
 };
 
 let menuIconStyle = {
-  visibility: "hidden",
+  right: "1em",
+  position: "absolute",
+  padding: "1em",
+  visibility: "",
 };
 
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
 
+  // if screen is less than max width
   if (matches) {
+    // make menu icon visible
     menuIconStyle = { ...menuIconStyle, visibility: "visible" };
+
+    // hide the nav links
+    navItemsStyle = { ...navItemsStyle, visibility: "hidden" };
   } else {
     menuIconStyle = { ...menuIconStyle, visibility: "hidden" };
+    navItemsStyle = { ...navItemsStyle, visibility: "visible" };
   }
 
   const [clicked, setClicked] = useState(false);
@@ -38,7 +52,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <nav>
         <div style={menuIconStyle} onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>
