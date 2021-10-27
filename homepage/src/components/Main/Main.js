@@ -25,10 +25,6 @@ const headerStyle = {
   fontFamily: "Roboto, sans-serif",
 };
 
-const headerTextSTyle = {
-  marginBottom: 0.5,
-};
-
 const mainStylesLight = {
   display: "flex",
   flexDirection: "column",

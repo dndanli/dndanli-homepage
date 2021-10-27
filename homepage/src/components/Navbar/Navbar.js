@@ -17,8 +17,8 @@ const containerStyle = {
   alignItems: "flex-end",
 };
 
-const listStyle = {
-  listStyle: "none",
+const menuIconStyle = {
+  visibility: "hidden",
 };
 
 const Navbar = () => {
@@ -30,8 +30,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="nav-items">
-        <div className="menu-icon" onClick={toggleMenu}>
+      <nav>
+        <div style={menuIconStyle} onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>
         </div>
       </nav>
@@ -40,7 +40,7 @@ const Navbar = () => {
         <ul style={navItemsStyle}>
           {NavItems.map((el, index) => {
             return (
-              <li style={listStyle}>
+              <li style={{ listStyle: "none" }} key={index}>
                 <a style={{ textDecoration: "none" }} href={el.url}>
                   {el.title}
                 </a>
