@@ -34,6 +34,8 @@ const mainStylesLight = {
   backgroundColor: "white",
   color: "black",
   fontFamily: "Montserrat, sans-serif",
+  position: "absolute",
+  top: "5em",
 };
 
 const Main = () => {

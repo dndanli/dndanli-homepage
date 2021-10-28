@@ -33,12 +33,19 @@ let navItemsStyle = {
   visibility: "",
 };
 
-// let slideItemsStyle = {
-//   transition: "",
-//   background: "green",
-//   margin: 0,
-//   position: "absolute",
-// };
+let slideItemsStyle = {
+  transition: "200ms ease",
+  background: "grey",
+  width: "18vw",
+  minHeight: "10vh",
+  margin: "1em",
+  padding: "1em",
+  position: "absolute",
+  top: "2em",
+  right: "1.6em",
+  borderRadius: ".5em",
+  zIndex: 1,
+};
 
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
@@ -55,8 +62,13 @@ const Navbar = () => {
     setClicked(!clicked);
   };
 
+  // when menu icon is clicked
+  // set a new small div to be visible
+  // that will contain all nav links
+  // and will appear only once clicked, make sure
+  // it does not move any content from the layout
   return (
-    <div style={{ position: "relative" }}>
+    <div>
       <nav>
         <div style={menuSty} onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>
@@ -64,7 +76,7 @@ const Navbar = () => {
       </nav>
 
       <div style={containerStyle}>
-        <ul style={navSty}>
+        <ul id="nav-items" style={!clicked ? navSty : slideItemsStyle}>
           {NavItems.map((el, index) => {
             return (
               <li style={{ listStyle: "none" }} key={index}>
