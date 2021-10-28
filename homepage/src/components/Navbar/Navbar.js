@@ -55,7 +55,6 @@ let anchorStyle = {
 };
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
-  //   const matches2 = CheckQuery("(min-width: 753px)");
 
   const { menuSty, navSty, slideSty } = useNavStyleToggle(
     matches,
