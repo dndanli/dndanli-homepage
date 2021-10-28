@@ -37,7 +37,7 @@ let navItemsStyle = {
 let slideItemsStyle = {
   transition: "200ms ease",
   background: "grey",
-  width: "18vw",
+  width: "20vw",
   minHeight: "10vh",
   margin: "1em",
   padding: "1em",
@@ -46,6 +46,7 @@ let slideItemsStyle = {
   right: "1.6em",
   borderRadius: ".5em",
   zIndex: 1,
+  visibility: "",
 };
 
 let anchorStyle = {
@@ -54,11 +55,13 @@ let anchorStyle = {
 };
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
+  //   const matches2 = CheckQuery("(min-width: 753px)");
 
-  const { menuSty, navSty } = useNavStyleToggle(
+  const { menuSty, navSty, slideSty } = useNavStyleToggle(
     matches,
     menuIconStyle,
-    navItemsStyle
+    navItemsStyle,
+    slideItemsStyle
   );
 
   const [clicked, setClicked] = useState(false);
@@ -67,11 +70,6 @@ const Navbar = () => {
     setClicked(!clicked);
   };
 
-  // when menu icon is clicked
-  // set a new small div to be visible
-  // that will contain all nav links
-  // and will appear only once clicked, make sure
-  // it does not move any content from the layout
   return (
     <div>
       <nav>
@@ -81,7 +79,7 @@ const Navbar = () => {
       </nav>
 
       <div style={containerStyle}>
-        <ul style={!clicked ? navSty : slideItemsStyle}>
+        <ul style={!clicked ? navSty : slideSty}>
           {NavItems.map((el, index) => {
             return (
               <li style={{ listStyle: "none" }} key={index}>
