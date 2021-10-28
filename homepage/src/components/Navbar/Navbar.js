@@ -11,8 +11,18 @@ import { FaWindowClose } from "react-icons/fa";
 //media functionality - might change to react-media
 import CheckQuery from "./NavMediaQuery";
 
+import useNavStyleToggle from "./toggle";
+
 //styles
 import { containerStyle } from "./NavbarStyles";
+
+let menuIconStyle = {
+  right: "1em",
+  fontSize: "1.3em",
+  position: "absolute",
+  padding: "1em",
+  visibility: "",
+};
 
 let navItemsStyle = {
   display: "flex",
@@ -23,27 +33,21 @@ let navItemsStyle = {
   visibility: "",
 };
 
-let menuIconStyle = {
-  right: "1em",
-  position: "absolute",
-  padding: "1em",
-  visibility: "",
-};
+// let slideItemsStyle = {
+//   transition: "",
+//   background: "green",
+//   margin: 0,
+//   position: "absolute",
+// };
 
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
 
-  // if screen is less than max width
-  if (matches) {
-    // make menu icon visible
-    menuIconStyle = { ...menuIconStyle, visibility: "visible" };
-
-    // hide the nav links
-    navItemsStyle = { ...navItemsStyle, visibility: "hidden" };
-  } else {
-    menuIconStyle = { ...menuIconStyle, visibility: "hidden" };
-    navItemsStyle = { ...navItemsStyle, visibility: "visible" };
-  }
+  const { menuSty, navSty } = useNavStyleToggle(
+    matches,
+    menuIconStyle,
+    navItemsStyle
+  );
 
   const [clicked, setClicked] = useState(false);
 
@@ -54,13 +58,13 @@ const Navbar = () => {
   return (
     <div style={{ position: "relative" }}>
       <nav>
-        <div style={menuIconStyle} onClick={toggleMenu}>
+        <div style={menuSty} onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>
         </div>
       </nav>
 
       <div style={containerStyle}>
-        <ul style={navItemsStyle}>
+        <ul style={navSty}>
           {NavItems.map((el, index) => {
             return (
               <li style={{ listStyle: "none" }} key={index}>
