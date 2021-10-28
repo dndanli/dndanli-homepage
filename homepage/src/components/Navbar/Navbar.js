@@ -15,6 +15,7 @@ import useNavStyleToggle from "./toggle";
 
 //styles
 import { containerStyle } from "./NavbarStyles";
+// import "./generalStyle.css";
 
 let menuIconStyle = {
   right: "1em",
@@ -47,6 +48,10 @@ let slideItemsStyle = {
   zIndex: 1,
 };
 
+let anchorStyle = {
+  color: "black",
+  textDecoration: "none",
+};
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
 
@@ -76,11 +81,11 @@ const Navbar = () => {
       </nav>
 
       <div style={containerStyle}>
-        <ul id="nav-items" style={!clicked ? navSty : slideItemsStyle}>
+        <ul style={!clicked ? navSty : slideItemsStyle}>
           {NavItems.map((el, index) => {
             return (
               <li style={{ listStyle: "none" }} key={index}>
-                <a style={{ textDecoration: "none" }} href={el.url}>
+                <a style={anchorStyle} href={el.url}>
                   {el.title}
                 </a>
               </li>
