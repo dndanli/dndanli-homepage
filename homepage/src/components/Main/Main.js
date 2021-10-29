@@ -1,42 +1,5 @@
 import "../assets/css/fonts.css";
-
-// const mainStylesDark = {
-//     display:'flex',
-//     flexDirection:'column',
-//     alignItems:'flex-start',
-//     padding:'2em 2em 1em 2em',
-//     lineHeight:'2em',
-//     backgroundColor: 'black',
-//     color: 'white',
-//     fontFamily: 'Montserrat, sans-serif'
-// };
-
-const defaultStyle = {
-  margin: 0,
-  padding: 0,
-  boxSizing: "border-box",
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-};
-
-const headerStyle = {
-  color: "black",
-  fontFamily: "Roboto, sans-serif",
-};
-
-const mainStylesLight = {
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "flex-start",
-  padding: "2em 2em 1em 2em",
-  lineHeight: "2em",
-  backgroundColor: "white",
-  color: "black",
-  fontFamily: "Montserrat, sans-serif",
-  position: "absolute",
-  top: "5em",
-};
+import { defaultStyle, mainStylesLight, headerStyle } from "./MainStyles";
 
 const Main = () => {
   return (
