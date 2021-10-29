@@ -9,7 +9,7 @@ export const NavItems = [
   },
   {
     title: "Projects",
-    url: "/",
+    url: "/projects",
   },
   {
     title: <FaGithub />,

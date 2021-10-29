@@ -20,6 +20,8 @@ import { navItemsStyle } from "./NavbarStyles";
 import { slideItemsStyle } from "./NavbarStyles";
 import { anchorStyle } from "./NavbarStyles";
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
 
@@ -49,9 +51,9 @@ const Navbar = () => {
           {NavItems.map((el, index) => {
             return (
               <li style={{ listStyle: "none" }} key={index}>
-                <a style={anchorStyle} href={el.url}>
+                <Link style={anchorStyle} to={el.url}>
                   {el.title}
-                </a>
+                </Link>
               </li>
             );
           })}
