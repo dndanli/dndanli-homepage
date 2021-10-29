@@ -14,11 +14,13 @@ import CheckQuery from "./NavMediaQuery";
 import useNavStyleToggle from "./toggle";
 
 //styles
-import { containerStyle } from "./NavbarStyles";
-import { menuIconStyle } from "./NavbarStyles";
-import { navItemsStyle } from "./NavbarStyles";
-import { slideItemsStyle } from "./NavbarStyles";
-import { anchorStyle } from "./NavbarStyles";
+import {
+  containerStyle,
+  menuIconStyle,
+  navItemsStyle,
+  slideItemsStyle,
+  anchorStyle,
+} from "./NavbarStyles";
 
 import { Link } from "react-router-dom";
 
