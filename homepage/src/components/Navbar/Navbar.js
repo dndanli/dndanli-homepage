@@ -41,7 +41,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: "#F1F5F2" }}>
       <nav>
         <div style={menuSty} onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>

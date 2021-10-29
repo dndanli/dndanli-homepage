@@ -18,7 +18,7 @@ export const mainStylesLight = {
   alignItems: "flex-start",
   padding: "2em 2em 1em 2em",
   lineHeight: "2em",
-  backgroundColor: "white",
+  backgroundColor: "#F1F5F2",
   color: "black",
   fontFamily: "Montserrat, sans-serif",
   position: "absolute",
