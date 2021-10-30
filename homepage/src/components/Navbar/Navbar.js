@@ -50,12 +50,22 @@ const Navbar = () => {
 
       <div style={containerStyle}>
         <ul style={!clicked ? navSty : slideSty}>
+          <li style={{ listStyle: "none" }}>
+            <Link style={anchorStyle} to="/">
+              Bio
+            </Link>
+          </li>
+          <li style={{ listStyle: "none" }}>
+            <Link style={anchorStyle} to="/projects">
+              Projects
+            </Link>
+          </li>
           {NavItems.map((el, index) => {
             return (
               <li style={{ listStyle: "none" }} key={index}>
-                <Link style={anchorStyle} to={el.url}>
+                <a style={anchorStyle} href={el.url}>
                   {el.title}
-                </Link>
+                </a>
               </li>
             );
           })}

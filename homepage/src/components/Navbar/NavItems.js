@@ -4,20 +4,12 @@ import { FaLinkedin } from "react-icons/fa";
 
 export const NavItems = [
   {
-    title: "Bio",
-    url: "/",
-  },
-  {
-    title: "Projects",
-    url: "/projects",
-  },
-  {
     title: <FaGithub />,
-    url: "github.com/dndanli",
+    url: "https://github.com/dndanli",
   },
   {
     title: <FaTwitter />,
-    url: "twitter.com/dndanli",
+    url: "https://twitter.com/dndanli",
   },
   {
     title: <FaLinkedin />,
