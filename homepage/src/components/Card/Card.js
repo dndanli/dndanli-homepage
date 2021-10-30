@@ -3,12 +3,17 @@ import "./CardHover.css";
 
 const Card = (props) => {
   return (
-    <div style={CardStyle} className="main-card">
-      <div>
-        <h3 style={header3Styles}>{props.projectName}</h3>
-        <h4 style={header4Styles}>{props.projectDesc}</h4>
+    <a
+      href={props.projectURL}
+      style={{ textDecoration: "none", color: "black" }}
+    >
+      <div style={CardStyle} className="main-card">
+        <div>
+          <h3 style={header3Styles}>{props.projectName}</h3>
+          <h4 style={header4Styles}>{props.projectDesc}</h4>
+        </div>
       </div>
-    </div>
+    </a>
   );
 };
 export default Card;

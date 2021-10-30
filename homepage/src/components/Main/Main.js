@@ -9,8 +9,8 @@ const Main = () => {
         <div>
           <h4>
             Hey, I'm Daniel De Lima currently on my last semester at{" "}
-            <a href="dmacc.edu">DMACC</a> majoring in Computer Information
-            Systems.
+            <a href="https://dmacc.edu">DMACC</a> majoring in Computer
+            Information Systems.
           </h4>
 
           <h4>
@@ -21,13 +21,15 @@ const Main = () => {
           <h4>
             I'm currently seeking a job as a Software Engineer, so if you liked
             my projects and want to hire me, my contact info is right below and
-            here is my <a href="dmacc.edu">Resume.</a>
+            here is my <a href="https://dmacc.edu">Resume.</a>
           </h4>
 
           <h4>
-            Find me on <a href="github.com/dndanli">GitHub</a>, and{" "}
-            <a href="twitter.com/dndanli">Twitter</a>, mail me at{" "}
-            <a href="dmacc.edu">Email</a>.
+            Find me on <a href="https://github.com/dndanli">GitHub</a>,
+            <a style={{padding:"0px 0px 0px 5px"}} href="https://twitter.com/dndanli">Twitter</a>, and
+            <a style={{paddingLeft:"5px"}} href="https://www.linkedin.com/in/daniel-de-lima-a07aa8223/">
+               Linkedin
+            </a>
           </h4>
         </div>
       </div>

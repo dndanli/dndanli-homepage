@@ -15,18 +15,21 @@ const MainProject = () => {
           <Card
             projectName="Health Promotion"
             projectDesc="Web application to check user's Blood pressure levels and BMI index."
+            projectURL="https://github.com/dndanli/HealthPromotion"
           />
         </div>
         <div>
           <Card
             projectName="Stock Scraper"
             projectDesc="Financial stock data scraper."
+            projectURL="https://github.com/dndanli/StockScraper"
           />
         </div>
         <div>
           <Card
             projectName="OpenWeatherMap-Java"
             projectDesc="Application made for checking the weather at a specified Zip Code"
+            projectURL="https://github.com/dndanli/openweathermap-java"
           />
         </div>
       </div>
