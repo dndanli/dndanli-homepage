@@ -1,4 +1,4 @@
-import "../assets/css/fonts.css";
+import "../../Fonts/fonts.css";
 import { defaultStyle, mainStylesLight, headerStyle } from "./MainStyles";
 
 const Main = () => {

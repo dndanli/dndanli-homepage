@@ -1,5 +1,5 @@
-import Card from "../Card/Card";
-import "../assets/css/fonts.css";
+import Card from "../Layout/Card/Card.jsx";
+import "../../Fonts/fonts.css";
 import { ProjectPageStyle, ProjectInnerStyle } from "./MainProjectStyles";
 
 const MainProject = () => {

@@ -8,8 +8,8 @@ import { NavItems } from "./NavItems";
 import { FaBars } from "react-icons/fa";
 import { FaWindowClose } from "react-icons/fa";
 
-//media functionality - might change to react-media
-import CheckQuery from "./NavMediaQuery";
+//media functionality - might change tWo react-media
+import CheckQuery from "../../../Helpers/MdQuery.js";
 
 import useNavStyleToggle from "./toggle";
 

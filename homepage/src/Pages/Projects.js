@@ -1,4 +1,4 @@
-import MainProject from "../components/Main/MainProject";
+import MainProject from "../Components/Main/MainProject";
 const Projects = () => {
   return (
     <div>
