@@ -6,7 +6,7 @@ const MainProject = ({className}) => {
   return (
     <div className={className}>
 
-      <h1 style={{fontFamily:"Montserrat, sans-serif"}}>Projects</h1>
+      <h1 className="headerStyle">Projects</h1>
 
       <div>
         <StyledCard

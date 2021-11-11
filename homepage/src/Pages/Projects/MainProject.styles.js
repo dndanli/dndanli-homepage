@@ -9,4 +9,8 @@ export const StyledProjectPage = styled(MainProject)`
     flex-direction: column;
     align-items: center;
     background-color: #F1F5F2;
+    
+    .headerStyle{
+        font-family: Roboto, sans-serif;
+    }
 `;
