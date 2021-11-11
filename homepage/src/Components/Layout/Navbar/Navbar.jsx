@@ -11,7 +11,7 @@ import { FaWindowClose } from "react-icons/fa";
 //media functionality - might change tWo react-media
 import CheckQuery from "../../../Helpers/MdQuery.js";
 
-import useNavStyleToggle from "./toggle";
+import toggleMenuIcon from "./toggle";
 
 //styles
 import {
@@ -27,7 +27,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const matches = CheckQuery("(max-width: 753px)");
 
-  const { menuSty, navSty, slideSty } = useNavStyleToggle(
+  const { useMenuStyle, useNavStyle, useMobileStyle } = toggleMenuIcon(
     matches,
     menuIconStyle,
     navItemsStyle,
@@ -42,33 +42,39 @@ const Navbar = () => {
 
   return (
     <div style={{ backgroundColor: "#F1F5F2" }}>
+      
+      {/* menu icon for mobile screens */}
       <nav>
-        <div style={menuSty} onClick={toggleMenu}>
+        <div style={useMenuStyle} onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>
         </div>
       </nav>
 
       <div style={containerStyle}>
-        <ul style={!clicked ? navSty : slideSty}>
-          <li style={{ listStyle: "none" }}>
+        <ul style={!clicked ? useNavStyle : useMobileStyle}>
+
+          <li>
             <Link style={anchorStyle} to="/">
               Bio
             </Link>
           </li>
-          <li style={{ listStyle: "none" }}>
+
+          <li>
             <Link style={anchorStyle} to="/projects">
               Projects
             </Link>
           </li>
+
           {NavItems.map((el, index) => {
             return (
-              <li style={{ listStyle: "none" }} key={index}>
+              <li key={index}>
                 <a style={anchorStyle} href={el.url}>
                   {el.title}
                 </a>
               </li>
             );
           })}
+
         </ul>
       </div>
     </div>

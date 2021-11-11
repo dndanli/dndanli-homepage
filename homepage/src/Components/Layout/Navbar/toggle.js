@@ -1,16 +1,17 @@
-function useNavStyleToggle(matches, menuSty, navSty, slideSty) {
+function toggleMenuIcon(matches, useMenuStyle, useNavStyle, useMobileStyle) {
   if (matches) {
-    // make menu icon visible
-    menuSty = { ...menuSty, visibility: "visible" };
 
-    // hide the nav links
-    navSty = { ...navSty, visibility: "hidden" };
+    useMenuStyle = { ...useMenuStyle, visibility: "visible" };
+    useNavStyle = { ...useNavStyle, visibility: "hidden" };
+
   } else {
-    menuSty = { ...menuSty, visibility: "hidden" };
-    slideSty = { ...slideSty, visibility: "hidden" };
-    navSty = { ...navSty, visibility: "visible" };
+
+    useMenuStyle = { ...useMenuStyle, visibility: "hidden" };
+    useMobileStyle = { ...useMobileStyle, visibility: "hidden" };
+    useNavStyle = { ...useNavStyle, visibility: "visible" };
+    
   }
-  return { menuSty, navSty, slideSty };
+  return {useMenuStyle,useNavStyle, useMobileStyle };
 }
 
-export default useNavStyleToggle;
+export default toggleMenuIcon;
