@@ -21,6 +21,7 @@ export const StyledNav = styled(Navbar)`
         padding: 0em;
         display: flex;
         font-family: Montserrat, sans-serif;
+        visibility: visible;
     };
 
     .navbar__nav li{
@@ -35,7 +36,13 @@ export const StyledNav = styled(Navbar)`
             visibility: hidden;
         }
     }
- 
+
+    @media (min-width: ${425}px) {
+        .slide__nav{
+            display: none;
+        }
+    }   
+    
     .slide__nav{
         background-color: #d4e5e2;
         font-family: Montserrat, sans-serif;
