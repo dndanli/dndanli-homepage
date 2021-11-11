@@ -1,4 +1,4 @@
-import Card from "../Layout/Card/Card.jsx";
+import Card from "../../Components/Layout/Card/Card.jsx";
 import "../../Fonts/fonts.css";
 import { ProjectPageStyle, ProjectInnerStyle } from "./MainProjectStyles";
 

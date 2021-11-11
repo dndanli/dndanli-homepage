@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Layout/Navbar/Navbar.jsx";
-import Projects from "./Pages/Projects";
-import Home from "./Pages/Home";
+import Projects from "./Pages/Projects/MainProject.jsx";
+import Home from "./Pages/Home/Home.jsx";
 
 function App() {
   return (
