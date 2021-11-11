@@ -37,7 +37,7 @@ export const StyledNav = styled(Navbar)`
     }
  
     .slide__nav{
-        background-color: grey;
+        background-color: #d4e5e2;
         font-family: Montserrat, sans-serif;
         font-size: 1.1em;
         padding: 1em;
