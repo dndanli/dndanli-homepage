@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Navbar from "./Components/Layout/Navbar/Navbar.jsx";
+import { StyledNav } from "./Components/Layout/Navbar/Navbar.styles.js";
 import { StyledProjectPage } from "./Pages/Projects/MainProject.styles.js";
 
 import { StyledHomePage } from "./Pages/Home/Home.style.js";
@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Navbar />
+        <StyledNav />
       </div>
       <Switch>
         <Route path="/" component={StyledHomePage} exact></Route>
