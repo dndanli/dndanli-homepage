@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Navbar from './Navbar'
-import { device } from './NavbarSizes';
+import { device } from '../../../Helpers/Devices';
 
 export const StyledNav = styled(Navbar)`
     
