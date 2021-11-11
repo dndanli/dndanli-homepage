@@ -1,11 +1,10 @@
 import "../../Fonts/fonts.css";
-import { defaultStyle, mainStylesLight, headerStyle } from "./MainStyles";
 
-const Main = () => {
+const Home = ({className}) => {
   return (
-    <div style={defaultStyle}>
-      <div style={mainStylesLight}>
-        <h1 style={headerStyle}>Daniel De Lima</h1>
+    <div className={className}>
+      <div className="homeLightTheme">
+        <h1 className="headerStyle">Daniel De Lima</h1>
         <div>
           <h4>
             Hey, I'm Daniel De Lima currently on my last semester at{" "}
@@ -37,4 +36,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;

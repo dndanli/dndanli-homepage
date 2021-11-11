@@ -1,16 +1,13 @@
-import { CardStyle, header3Styles, header4Styles } from "./CardStyles";
-import "./CardHover.css";
-
-const Card = (props) => {
+const Card = ({className,projectURL,projectName,projectDesc}) => {
   return (
     <a
-      href={props.projectURL}
+      href={projectURL}
       style={{ textDecoration: "none", color: "black" }}
     >
-      <div style={CardStyle} className="main-card">
+      <div className={className}>
         <div>
-          <h3 style={header3Styles}>{props.projectName}</h3>
-          <h4 style={header4Styles}>{props.projectDesc}</h4>
+          <h3 style={{color:"black"}}>{projectName}</h3>
+          <h4 >{projectDesc}</h4>
         </div>
       </div>
     </a>

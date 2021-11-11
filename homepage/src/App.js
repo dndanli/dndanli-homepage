@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Layout/Navbar/Navbar.jsx";
-import Projects from "./Pages/Projects/MainProject.jsx";
-import Home from "./Pages/Home/Home.jsx";
+import { StyledProjectPage } from "./Pages/Projects/MainProject.styles.js";
 
+import { StyledHomePage } from "./Pages/Home/Home.style.js";
+import "./App.css"
 function App() {
   return (
     <BrowserRouter>
@@ -10,8 +11,8 @@ function App() {
         <Navbar />
       </div>
       <Switch>
-        <Route path="/" component={Home} exact></Route>
-        <Route path="/projects" component={Projects} exact></Route>
+        <Route path="/" component={StyledHomePage} exact></Route>
+        <Route path="/projects" component={StyledProjectPage} exact></Route>
       </Switch>
     </BrowserRouter>
   );
