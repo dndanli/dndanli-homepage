@@ -9,20 +9,21 @@ export const StyledNav = styled(Navbar)`
     min-height: 5vh;
 
     .menu__icon{
-        right: 1em;
-        font-size: 1.3em;
         position: absolute;
+        right: 1em;
         top:1em;
+        font-size: 1.3em;
         display: none;
     };
 
-    .nav__item{
+    .navbar__nav{
         margin:0;
         padding: 0em;
         display: flex;
+        font-family: Montserrat, sans-serif;
     };
 
-    .nav__item li{
+    .navbar__nav li{
         margin: 1em;
     }
 
@@ -30,24 +31,29 @@ export const StyledNav = styled(Navbar)`
         .menu__icon{
             display: block;
         };
-        .nav__item{
+        .navbar__nav{
             visibility: hidden;
         }
     }
  
-    .slide__item{
-        transition: 200ms ease;
+    .slide__nav{
         background-color: grey;
-        width: 20vw;
-        min-height: 10vh;
-        margin: 1em;
+        font-family: Montserrat, sans-serif;
+        font-size: 1.1em;
         padding: 1em;
+
         position: absolute;
+        width: 26vw;
+        min-height: 12vh;
         top: 2em;
         right: 1.6em;
         border-radius: .5em;
-        z-index: 1;
-        visibility: "";
+        transition: 200ms ease;
+        z-index:1
+    }
+    
+    .slide__nav li{
+        margin: .5em;
     }
 
     .inner__container a{

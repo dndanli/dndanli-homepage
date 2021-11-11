@@ -1,4 +1,5 @@
 import "../../Fonts/fonts.css";
+import { Link } from "react-router-dom";
 
 const Home = ({className}) => {
   return (
@@ -18,9 +19,9 @@ const Home = ({className}) => {
           </h4>
 
           <h4>
-            I'm currently seeking a job as a Software Engineer, so if you liked
+            I'm currently seeking a job as a Software Engineer. So if you liked
             my projects and want to hire me, my contact info is right below and
-            here is my <a href="https://dmacc.edu">Resume.</a>
+            here is my <Link to="/">Resume.</Link>
           </h4>
 
           <h4>

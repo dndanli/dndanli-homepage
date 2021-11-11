@@ -15,7 +15,7 @@ const Navbar = ({className}) => {
   return (
     <nav className={className}>
       <div className="inner__container">
-        <ul className={!clicked ? "nav__item" : "slide__item"}>
+        <ul className={!clicked ? "navbar__nav" : "slide__nav"}>
           
           <li> <Link to="/"> Bio </Link> </li>
           <li> <Link to="/projects"> Projects </Link> </li>
