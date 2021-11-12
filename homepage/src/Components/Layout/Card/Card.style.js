@@ -3,13 +3,11 @@ import Card from './Card.jsx';
 
 export const StyledCard = styled(Card)`
     height:9em;
-    padding:1em;
-
-    
+    padding:1em;    
     background-color: #F1F5F2;
     font-family: Montserrat, sans-serif;
     color: #31393C;
-    word-break: break-all;
+
 
     &:hover{
         background-color: #e7eee8;
