@@ -21,6 +21,7 @@ export const StyledNav = styled(Navbar)`
         padding: 0em;
         display: flex;
         font-family: Montserrat, sans-serif;
+        font-size: 1em;
         visibility: visible;
     };
 
@@ -64,5 +65,12 @@ export const StyledNav = styled(Navbar)`
 
     .inner__container li{
         list-style-type: none;
+    }
+
+    .nav__item {    
+        &:hover a{
+            color: #56a6a9;
+            transition: 0.5s all ease-in-out;
+        }
     }
 `;

@@ -17,12 +17,12 @@ const Navbar = ({className}) => {
       <div className="inner__container">
         <ul className={!clicked ? "navbar__nav" : "slide__nav"}>
           
-          <li> <Link to="/"> Bio </Link> </li>
-          <li> <Link to="/projects"> Projects </Link> </li>
+          <li className="nav__item"> <Link to="/"> Bio </Link> </li>
+          <li className="nav__item"> <Link to="/projects"> Projects </Link> </li>
 
           {NavItems.map((el, index) => {
             return (
-              <li key={index}>
+              <li className="nav__item" key={index}>
                 <a href={el.url}> {el.title} </a>
               </li>
             );
