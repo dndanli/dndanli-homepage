@@ -37,11 +37,6 @@ export const StyledNav = styled(Navbar)`
         }
     }
 
-    @media (min-width: ${425}px) {
-        .slide__nav{
-            display: none;
-        }
-    }   
     
     .slide__nav{
         background-color: #d4e5e2;
