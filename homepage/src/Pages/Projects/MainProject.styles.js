@@ -13,4 +13,11 @@ export const StyledProjectPage = styled(MainProject)`
     .headerStyle{
         font-family: Roboto, sans-serif;
     }
+
+    .cards{
+        margin: 5rem auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 1em;
+    }
 `;

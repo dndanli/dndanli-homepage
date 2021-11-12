@@ -8,7 +8,7 @@ const MainProject = ({className}) => {
 
       <h1 className="headerStyle">Projects</h1>
 
-      <div>
+      <div className="cards">
         <StyledCard
           projectName="Health Promotion"
           projectDesc="Web application to check user's Blood pressure levels and BMI index."
@@ -26,6 +26,13 @@ const MainProject = ({className}) => {
           projectDesc="Application made for checking the weather at a specified Zip Code"
           projectURL="https://github.com/dndanli/openweathermap-java">
         </StyledCard>
+
+        <StyledCard
+          projectName="PlayCast"
+          projectDesc="Mockup podcast website (coming soon)"
+          projectURL="https://github.com/dndanli/playCast">
+        </StyledCard>
+        
         </div>
     </div>
   )
