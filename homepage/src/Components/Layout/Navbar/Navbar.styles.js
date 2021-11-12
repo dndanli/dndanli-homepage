@@ -43,9 +43,8 @@ export const StyledNav = styled(Navbar)`
         font-family: Montserrat, sans-serif;
         font-size: 1.1em;
         padding: 1em;
-
         position: absolute;
-        width: 26vw;
+        width: 6em;
         min-height: 12vh;
         top: 2em;
         right: 1.6em;

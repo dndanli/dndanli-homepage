@@ -8,11 +8,13 @@ export const StyledProjectPage = styled(MainProject)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     .headerStyle{
         color: black;
         font-family: Roboto, sans-serif;
-        margin: 2.5em 0em 1em 0em;
+        /* margin: 2.5em 0em 1em 0em; */
+        position: absolute;
+        top:2.5em;
     }
 
     .cards{
@@ -20,5 +22,7 @@ export const StyledProjectPage = styled(MainProject)`
         display: grid;
         grid-template-columns: 50% 50%;
         grid-gap: 1em;
+        position: absolute;
+        top:6em;
     }
 `;

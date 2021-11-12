@@ -3,11 +3,10 @@ import { StyledCard } from "../../Components/Layout/Card/Card.style";
 import "../../Fonts/fonts.css";
 
 const MainProject = ({className}) => {
+  
   return (
     <div className={className}>
       <h1 className="headerStyle">Projects</h1>
-
-
       <div className="cards">
         <StyledCard
           projectName="Health Promotion"
@@ -32,11 +31,9 @@ const MainProject = ({className}) => {
           projectDesc="Mockup podcast website (coming soon)"
           projectURL="https://github.com/dndanli/playCast">
         </StyledCard>
-        
-        </div>
+      </div>
     </div>
-  )
-
+  );
 };
 
 export default MainProject;
