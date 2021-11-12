@@ -8,10 +8,11 @@ export const StyledProjectPage = styled(MainProject)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F1F5F2;
     
     .headerStyle{
+        color: black;
         font-family: Roboto, sans-serif;
+        margin: 2.5em 0em 1em 0em;
     }
 
     .cards{

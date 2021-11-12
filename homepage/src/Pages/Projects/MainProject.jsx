@@ -5,8 +5,8 @@ import "../../Fonts/fonts.css";
 const MainProject = ({className}) => {
   return (
     <div className={className}>
-
       <h1 className="headerStyle">Projects</h1>
+
 
       <div className="cards">
         <StyledCard
