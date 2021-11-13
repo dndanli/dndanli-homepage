@@ -9,7 +9,7 @@ const Home = ({className}) => {
         <div className="headerStyle">
           <h4>
             Hey, I'm Daniel De Lima currently on my last semester at{" "}
-            <a href="https://dmacc.edu" target="_blank">DMACC</a> majoring in Computer
+            <a href="https://dmacc.edu" target="_blank" rel="noopener noreferrer">DMACC</a> majoring in Computer
             Information Systems.
           </h4>
 
@@ -25,9 +25,9 @@ const Home = ({className}) => {
           </h4>
 
           <h4>
-            Find me on <a href="https://github.com/dndanli" target="_blank">GitHub</a>,
-            <a style={{padding:"0px 0px 0px 5px"}} href="https://twitter.com/dndanli" target="_blank">Twitter</a>, and
-            <a style={{paddingLeft:"5px"}} href="https://www.linkedin.com/in/daniel-de-lima-a07aa8223/" target="_blank">
+            Find me on <a href="https://github.com/dndanli" target="_blank" rel="noopener noreferrer">GitHub</a>,
+            <a style={{padding:"0px 0px 0px 5px"}} href="https://twitter.com/dndanli" target="_blank" rel="noopener noreferrer">Twitter</a>, and
+            <a style={{paddingLeft:"5px"}} href="https://www.linkedin.com/in/daniel-de-lima-a07aa8223/" target="_blank" rel="noopener noreferrer">
                Linkedin
             </a>
           </h4>
