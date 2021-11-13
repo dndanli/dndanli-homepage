@@ -23,7 +23,7 @@ const Navbar = ({className}) => {
           {NavItems.map((el, index) => {
             return (
               <li className="nav__item" key={index}>
-                <a href={el.url}> {el.title} </a>
+                <a href={el.url} target="_blank"> {el.title} </a>
               </li>
             );
           })}

@@ -24,8 +24,6 @@ export const StyledHomePage = styled(Home)`
         align-items: flex-start;
         padding: 2em 2em 1em 2em;
         line-height: 2em;
-        /* background-color: #000000; */
-        /* background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
         color: black;
         font-family: Montserrat, sans-serif;
         position: absolute;
