@@ -6,7 +6,7 @@ const Card = ({className,projectURL,projectName,projectDesc}) => {
     >
       <div className={className}>
         <div>
-          <h3 style={{color:"black"}}>{projectName}</h3>
+          <h3>{projectName}</h3>
             <p>{projectDesc}</p>
         </div>
       </div>

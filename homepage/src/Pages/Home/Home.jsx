@@ -6,7 +6,7 @@ const Home = ({className}) => {
     <div className={className}>
       <div className="homeLightTheme">
         <h1 className="headerStyle">Daniel De Lima</h1>
-        <div>
+        <div className="headerStyle">
           <h4>
             Hey, I'm Daniel De Lima currently on my last semester at{" "}
             <a href="https://dmacc.edu">DMACC</a> majoring in Computer

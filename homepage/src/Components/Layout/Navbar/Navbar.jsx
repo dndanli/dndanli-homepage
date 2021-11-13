@@ -33,7 +33,6 @@ const Navbar = ({className}) => {
         <div className="menu__icon" onClick={toggleMenu}>
           <i>{!clicked ? <FaBars /> : <FaWindowClose />}</i>
         </div>
-        
       </div>
     </nav>
   );

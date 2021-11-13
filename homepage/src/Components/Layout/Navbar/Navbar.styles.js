@@ -9,6 +9,7 @@ export const StyledNav = styled(Navbar)`
     min-height: 5vh;
 
     .menu__icon{
+        color:#cdd6d9;
         position: absolute;
         right: 1em;
         top:1em;
@@ -20,8 +21,8 @@ export const StyledNav = styled(Navbar)`
         margin:0;
         padding: 0em;
         display: flex;
-        font-family: Montserrat, sans-serif;
-        font-size: 1em;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
         visibility: visible;
     };
 
@@ -40,7 +41,7 @@ export const StyledNav = styled(Navbar)`
 
     
     .slide__nav{
-        background-color: #d4e5e2;
+        background-color: #353535;
         font-family: Montserrat, sans-serif;
         font-size: 1.1em;
         padding: 1em;
@@ -66,10 +67,12 @@ export const StyledNav = styled(Navbar)`
     .inner__container li{
         list-style-type: none;
     }
-
+    .nav__item a{
+        color:#cdd6d9;
+    }
     .nav__item {    
         &:hover a{
-            color: #56a6a9;
+            color: #b4feea;
             transition: 0.5s all ease-in-out;
         }
     }

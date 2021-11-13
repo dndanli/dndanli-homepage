@@ -10,9 +10,8 @@ export const StyledProjectPage = styled(MainProject)`
     align-items: center;
 
     .headerStyle{
-        color: black;
+        color: #cdd6d9;
         font-family: Roboto, sans-serif;
-        /* margin: 2.5em 0em 1em 0em; */
         position: absolute;
         top:2.5em;
     }
@@ -25,4 +24,5 @@ export const StyledProjectPage = styled(MainProject)`
         position: absolute;
         top:6em;
     }
+    
 `;
