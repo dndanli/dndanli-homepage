@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
- 
+
 export const NavItems = [
   {
     title: <FaGithub />,
@@ -9,7 +9,7 @@ export const NavItems = [
   },
   {
     title: <FaTwitter />,
-    url: "https://twitter.com/dndanli",
+    url: "#",
   },
   {
     title: <FaLinkedin />,

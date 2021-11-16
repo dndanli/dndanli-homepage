@@ -10,8 +10,6 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      {/* <div className="cursor"></div> */}
-      {/* <MouseCursor /> */}
       <StyledCursor />
       <div>
         <StyledNav />

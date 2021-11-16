@@ -40,14 +40,9 @@ const Home = ({ className }) => {
               GitHub
             </a>
             ,
-            <a
-              style={{ padding: "0px 0px 0px 5px" }}
-              href="https://twitter.com/dndanli"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/" style={{ padding: "0px 0px 0px 5px" }}>
               Twitter
-            </a>
+            </Link>
             , and
             <a
               style={{ paddingLeft: "5px" }}
