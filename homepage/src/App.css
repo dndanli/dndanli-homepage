@@ -3,9 +3,8 @@ html {
 }
 
 body {
-  background-color: #2d3436;
-  background-image: linear-gradient(245deg, #2d3436 0%, #0000007a 74%);
-
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
