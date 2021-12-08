@@ -27,9 +27,15 @@ const MainProject = ({className}) => {
         </StyledCard>
 
         <StyledCard
-          projectName="PlayCast"
-          projectDesc="Mockup podcast website (coming soon)"
-          projectURL="https://github.com/dndanli/playCast">
+          projectName="Cantus-Music"
+          projectDesc="Mockup audio streaming website (coming soon)"
+          projectURL="https://github.com/dndanli/Cantus-Music">
+        </StyledCard>
+
+        <StyledCard
+          projectName="Financial tracker"
+          projectDesc="Mockup financial tracker web-app (coming soon)"
+          projectURL="https://github.com/dndanli/Financial-tracker">
         </StyledCard>
       </div>
     </div>
