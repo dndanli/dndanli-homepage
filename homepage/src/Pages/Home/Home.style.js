@@ -10,17 +10,21 @@ export const StyledHomePage = styled(Home)`
   align-items: center;
 
   h1 {
-    font-size: 3em;
+    font-size: 3rem;
     font-family: "Montserrat", sans-serif;
   }
 
+  h4{
+    font-size:1.5rem;
+  }
+
   .headerStyle {
-    color: #fafefe;
+    color: rgba(0,0,0,0.8);
   }
 
   .headerStyle a {
     font-family: Roboto, sans-serif;
-    color: #828e82;
+    color: rgba(4, 4, 4, 1);
   }
 
   .homeLightTheme {

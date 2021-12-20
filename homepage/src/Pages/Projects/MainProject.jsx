@@ -9,17 +9,17 @@ const MainProject = ({className}) => {
       <h1 className="headerStyle">Projects</h1>
       <div className="cards">
         <StyledCard
-          projectName="Health Promotion"
-          projectDesc="Web application to check user's Blood pressure levels and BMI index."
-          projectURL="https://github.com/dndanli/HealthPromotion">
-        </StyledCard>
-      
-        <StyledCard
           projectName="Stock Scraper"
           projectDesc="Financial stock data scraper."
           projectURL="https://github.com/dndanli/StockScraper">
         </StyledCard>
-      
+
+        <StyledCard
+          projectName="Health Promotion"
+          projectDesc="Web application to check user's Blood pressure levels and BMI index."
+          projectURL="https://github.com/dndanli/HealthPromotion">
+        </StyledCard>
+        
         <StyledCard
           projectName="OpenWeatherMap-Java"
           projectDesc="Application made for checking the weather at a specified Zip Code"
@@ -27,15 +27,15 @@ const MainProject = ({className}) => {
         </StyledCard>
 
         <StyledCard
-          projectName="Cantus-Music"
-          projectDesc="Mockup audio streaming website (coming soon)"
-          projectURL="https://github.com/dndanli/Cantus-Music">
+          projectName="Expenses tracker"
+          projectDesc="Expenses tracker web-app."
+          projectURL="https://github.com/dndanli/Expenses-tracker">
         </StyledCard>
 
         <StyledCard
-          projectName="Financial tracker"
-          projectDesc="Mockup financial tracker web-app (coming soon)"
-          projectURL="https://github.com/dndanli/Financial-tracker">
+          projectName="Cantus-Music"
+          projectDesc="Mockup audio streaming website (coming soon)"
+          projectURL="https://github.com/dndanli/Cantus-Music">
         </StyledCard>
       </div>
     </div>

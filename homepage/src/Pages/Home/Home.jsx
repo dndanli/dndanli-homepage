@@ -8,15 +8,7 @@ const Home = ({ className }) => {
         <h1 className="headerStyle">Daniel De Lima</h1>
         <div className="headerStyle">
           <h4>
-            Hey, I'm Daniel De Lima currently on my last semester at{" "}
-            <a
-              href="https://dmacc.edu"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              DMACC
-            </a>{" "}
-            majoring in Computer Information Systems.
+            Hey👋, I'm Daniel De Lima.
           </h4>
 
           <h4>

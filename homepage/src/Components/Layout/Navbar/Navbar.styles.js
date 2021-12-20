@@ -22,7 +22,7 @@ export const StyledNav = styled(Navbar)`
         padding: 0em;
         display: flex;
         font-family: 'Poppins', sans-serif;
-        font-size: 1.1em;
+        font-size: 1.5rem;
         visibility: visible;
     };
 
@@ -68,11 +68,11 @@ export const StyledNav = styled(Navbar)`
         list-style-type: none;
     }
     .nav__item a{
-        color:#cdd6d9;
+        color: rgba(0,0,0,0.8);
     }
     .nav__item {    
         &:hover a{
-            color: #b4feea;
+            color: #e16259;
             transition: 0.5s all ease-in-out;
         }
     }

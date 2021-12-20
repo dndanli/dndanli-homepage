@@ -10,7 +10,7 @@ export const StyledProjectPage = styled(MainProject)`
     align-items: center;
 
     .headerStyle{
-        color: #cdd6d9;
+        color: rgba(0,0,0,0.8);
         font-family: Roboto, sans-serif;
         position: absolute;
         top:2.5em;
