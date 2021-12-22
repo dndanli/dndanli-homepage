@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dndanli-homepage/static/css/main.29822b96.chunk.css",
-    "main.js": "/dndanli-homepage/static/js/main.ee23e886.chunk.js",
-    "main.js.map": "/dndanli-homepage/static/js/main.ee23e886.chunk.js.map",
+    "main.js": "/dndanli-homepage/static/js/main.b618d136.chunk.js",
+    "main.js.map": "/dndanli-homepage/static/js/main.b618d136.chunk.js.map",
     "runtime-main.js": "/dndanli-homepage/static/js/runtime-main.4dc16478.js",
     "runtime-main.js.map": "/dndanli-homepage/static/js/runtime-main.4dc16478.js.map",
     "static/js/2.07029d50.chunk.js": "/dndanli-homepage/static/js/2.07029d50.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4dc16478.js",
     "static/js/2.07029d50.chunk.js",
     "static/css/main.29822b96.chunk.css",
-    "static/js/main.ee23e886.chunk.js"
+    "static/js/main.b618d136.chunk.js"
   ]
 }
