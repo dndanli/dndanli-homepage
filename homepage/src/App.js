@@ -5,7 +5,7 @@ import { StyledHomePage } from "./Pages/Home/Home.style.js";
 import { StyledCursor } from "./Components/Effects/Cursor.style.js";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dndanli-homepage">
       <StyledCursor />
       <div>
         <StyledNav />
