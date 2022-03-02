@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/dndanli-homepage/static/css/main.29822b96.chunk.css",
-    "main.js": "/dndanli-homepage/static/js/main.b618d136.chunk.js",
-    "main.js.map": "/dndanli-homepage/static/js/main.b618d136.chunk.js.map",
-    "runtime-main.js": "/dndanli-homepage/static/js/runtime-main.4dc16478.js",
-    "runtime-main.js.map": "/dndanli-homepage/static/js/runtime-main.4dc16478.js.map",
-    "static/js/2.07029d50.chunk.js": "/dndanli-homepage/static/js/2.07029d50.chunk.js",
-    "static/js/2.07029d50.chunk.js.map": "/dndanli-homepage/static/js/2.07029d50.chunk.js.map",
-    "static/js/3.a1bb58df.chunk.js": "/dndanli-homepage/static/js/3.a1bb58df.chunk.js",
-    "static/js/3.a1bb58df.chunk.js.map": "/dndanli-homepage/static/js/3.a1bb58df.chunk.js.map",
+    "main.css": "/dndanli-homepage/static/css/main.950bbd78.chunk.css",
+    "main.js": "/dndanli-homepage/static/js/main.493d49c1.chunk.js",
+    "main.js.map": "/dndanli-homepage/static/js/main.493d49c1.chunk.js.map",
+    "runtime-main.js": "/dndanli-homepage/static/js/runtime-main.f2e8a004.js",
+    "runtime-main.js.map": "/dndanli-homepage/static/js/runtime-main.f2e8a004.js.map",
+    "static/js/2.d3fb3770.chunk.js": "/dndanli-homepage/static/js/2.d3fb3770.chunk.js",
+    "static/js/2.d3fb3770.chunk.js.map": "/dndanli-homepage/static/js/2.d3fb3770.chunk.js.map",
+    "static/js/3.342afc07.chunk.js": "/dndanli-homepage/static/js/3.342afc07.chunk.js",
+    "static/js/3.342afc07.chunk.js.map": "/dndanli-homepage/static/js/3.342afc07.chunk.js.map",
     "index.html": "/dndanli-homepage/index.html",
-    "static/css/main.29822b96.chunk.css.map": "/dndanli-homepage/static/css/main.29822b96.chunk.css.map",
-    "static/js/2.07029d50.chunk.js.LICENSE.txt": "/dndanli-homepage/static/js/2.07029d50.chunk.js.LICENSE.txt"
+    "static/css/main.950bbd78.chunk.css.map": "/dndanli-homepage/static/css/main.950bbd78.chunk.css.map",
+    "static/js/2.d3fb3770.chunk.js.LICENSE.txt": "/dndanli-homepage/static/js/2.d3fb3770.chunk.js.LICENSE.txt",
+    "static/media/decide-my-meal.65d5843a.png": "/dndanli-homepage/static/media/decide-my-meal.65d5843a.png",
+    "static/media/expenses_tracker.8a5ea54d.png": "/dndanli-homepage/static/media/expenses_tracker.8a5ea54d.png",
+    "static/media/health-promotion.7b5a2389.png": "/dndanli-homepage/static/media/health-promotion.7b5a2389.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4dc16478.js",
-    "static/js/2.07029d50.chunk.js",
-    "static/css/main.29822b96.chunk.css",
-    "static/js/main.b618d136.chunk.js"
+    "static/js/runtime-main.f2e8a004.js",
+    "static/js/2.d3fb3770.chunk.js",
+    "static/css/main.950bbd78.chunk.css",
+    "static/js/main.493d49c1.chunk.js"
   ]
 }
