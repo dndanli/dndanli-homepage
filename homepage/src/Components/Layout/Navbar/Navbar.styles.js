@@ -12,7 +12,7 @@ export const StyledNav = styled(Navbar)`
     position: absolute;
     right: 1em;
     top: 1em;
-    font-size: 1.3em;
+    font-size: 1.5em;
     display: none;
   }
 
@@ -70,7 +70,7 @@ export const StyledNav = styled(Navbar)`
   }
   .nav__item {
     &:hover a {
-      color: #e16259;
+      color: #2f89fc;
       transition: 0.5s all ease-in-out;
     }
   }
