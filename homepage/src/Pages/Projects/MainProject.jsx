@@ -8,22 +8,11 @@ const MainProject = ({className}) => {
     <div className={className}>
       <h1 className="headerStyle">Projects</h1>
       <div className="cards">
-        <StyledCard
-          projectName="Stock Scraper"
-          projectDesc="Financial stock data scraper."
-          projectURL="https://github.com/dndanli/StockScraper">
-        </StyledCard>
 
         <StyledCard
-          projectName="Health Promotion"
-          projectDesc="Web application to check user's Blood pressure levels and BMI index."
-          projectURL="https://github.com/dndanli/HealthPromotion">
-        </StyledCard>
-        
-        <StyledCard
-          projectName="OpenWeatherMap-Java"
-          projectDesc="Application made for checking the weather at a specified Zip Code"
-          projectURL="https://github.com/dndanli/openweathermap-java">
+          projectName="Decide my meal"
+          projectDesc="A website to help people decide what to and where to eat"
+          projectURL="http://decidemymeal.com/">
         </StyledCard>
 
         <StyledCard
@@ -33,10 +22,17 @@ const MainProject = ({className}) => {
         </StyledCard>
 
         <StyledCard
-          projectName="Cantus-Music"
-          projectDesc="Mockup audio streaming website (coming soon)"
-          projectURL="https://github.com/dndanli/Cantus-Music">
+          projectName="Stock Scraper"
+          projectDesc="Financial stock data scraper."
+          projectURL="https://github.com/dndanli/StockScraper">
         </StyledCard>
+
+        <StyledCard
+          projectName="Health Promotion"
+          projectDesc="Web application to check user's Blood pressure levels and BMI index."
+          projectURL="https://github.com/tsorteberg/HealthPromotion">
+        </StyledCard>
+
       </div>
     </div>
   );
