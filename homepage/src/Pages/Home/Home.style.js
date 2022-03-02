@@ -19,7 +19,6 @@ export const StyledHomePage = styled(Home)`
     font-weight: 300;
   }
   #header-greeting {
-    /* font-family: "Lobster", cursive; */
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     color: rgba(4, 4, 4, 1);
