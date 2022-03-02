@@ -14,12 +14,23 @@ export const StyledHomePage = styled(Home)`
     font-family: "Montserrat", sans-serif;
   }
 
-  h4{
-    font-size:1.5rem;
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 300;
   }
+  #header-greeting {
+    /* font-family: "Lobster", cursive; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: rgba(4, 4, 4, 1);
 
+    &:hover {
+      transition: 2s all ease-in-out;
+      color: #2f89fc;
+    }
+  }
   .headerStyle {
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
   }
 
   .headerStyle a {
@@ -37,5 +48,12 @@ export const StyledHomePage = styled(Home)`
     font-family: Montserrat, sans-serif;
     position: absolute;
     top: 5em;
+  }
+  #dev {
+    &:hover {
+      transition: 2s all ease-in-out;
+      color: #2f89fc;
+    }
+    font-weight: 900;
   }
 `;
